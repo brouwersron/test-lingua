@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'welcome' => 'Welcome'
+    'welcome' => 'This is a welcome message in ENGLISH',
 ];
