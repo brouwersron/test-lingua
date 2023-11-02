@@ -40,7 +40,5 @@ Route::get('//{locale?}', function (string|null $locale = null) {
     if($locale){
         app()->setLocale($locale);
     }
-    return inertia('Test', [
-        'welcome' => __('phrases.welcome')
-    ]);
+    return inertia('Test');
 });
